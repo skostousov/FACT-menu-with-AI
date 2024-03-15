@@ -4,7 +4,7 @@ import threading
 
 q = queue.Queue()
 
-
+print("hello")
 def worker():
   while True:
     if q.empty():
