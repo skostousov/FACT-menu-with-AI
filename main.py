@@ -4,7 +4,6 @@ import threading
 
 q = queue.Queue()
 
-print("hello")
 def worker():
   while True:
     if q.empty():
@@ -16,5 +15,5 @@ def worker():
 
 
 threading.Thread(target=worker, daemon=True).start()
-menu = submenus.MainMenu(q, "main menu")
+menu = submenus.MainMenu(q, "Main Menu")
 menu.run()
