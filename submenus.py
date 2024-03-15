@@ -18,6 +18,7 @@ def authenticate(username, password):
   # Return True if the user exists and the password is correct, otherwise return False
   return user is not None
 print("Hello")
+print("Hi")
   
 class MainMenu(Menu):
   def __init__(self, q, classname):
