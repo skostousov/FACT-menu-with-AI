@@ -19,7 +19,7 @@ def authenticate(username, password):
   return user is not None
 print("Hello")
 print("Hi")
-print("Bana")  
+print("Bannnnna")  
 class MainMenu(Menu):
   def __init__(self, q, classname):
     self.choices = {"1": ("Sign In", self.signin), "2": ("Create Account", self.signup)}
