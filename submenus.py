@@ -17,11 +17,7 @@ def authenticate(username, password):
 
   # Return True if the user exists and the password is correct, otherwise return False
   return user is not None
-print("made from my feature branch")
-print("another edit")
-print("final my feature")
-print("yet another edit")
-print("OObaloo")
+
 class MainMenu(Menu):
   def __init__(self, q, classname):
     self.choices = {"1": ("Sign In", self.signin), "2": ("Create Account", self.signup)}
