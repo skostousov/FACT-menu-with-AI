@@ -16,7 +16,7 @@ class Menu():
     while True:
       self.display_menu()
       self.choice = input()
-      os.system('clear')  # Clear the console
+      print(end="\033c")  # Clear the console
       action = self.choices.get(self.choice)
       if self.choice == self.exit:
         break
